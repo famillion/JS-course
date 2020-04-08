@@ -122,7 +122,7 @@ approveOptionalBtn.addEventListener('click', () => {
 });
 
 countBtn.addEventListener('click', () => {
-    appData.moneyPerDay = (appData.appMoney / 30).toFixed(2);
+    appData.moneyPerDay = ((appData.appMoney - +resDivEl[3].textContent)/ 30).toFixed(2);
     resDivEl[1].textContent = appData.moneyPerDay;
     detectLevel();
 });
