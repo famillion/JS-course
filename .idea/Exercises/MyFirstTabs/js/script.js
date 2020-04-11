@@ -118,7 +118,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     setClock('timer', deadLine);
 
-//    Model Block =====================================================================================
+//    Modal Block =====================================================================================
 
     let more = document.querySelector('.more'),
         overlay = document.querySelector('.overlay'),
